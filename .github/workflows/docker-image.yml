@@ -22,6 +22,6 @@ jobs:
       run: |
         echo $USER
         echo $PASS
-        docker build . --file Dockerfile --tag kaishwarya99/DCM_WEBSERVER_3002
+        docker build . --file Dockerfile --tag kaishwarya99/dcm_webserver_3002
         docker login -u $USER -p $PASS
-        docker push kaishwarya99/DCM_WEBSERVER_3002       
+        docker push kaishwarya99/dcm_webserver_3002      
